@@ -1,0 +1,394 @@
+@font-face {
+  font-family: Myriad Pro;
+  src: url('./../assets/fonts/8143.otf');
+}
+
+@font-face {
+  font-family: Sylfaen;
+  src: url('./../assets/fonts/8294.ttf');
+}
+
+.header {
+  padding-top: 35px;
+  height: 730px;
+  background-image: url('./../assets/images/IMG_2976-.jpg');
+  background-size: cover;
+}
+
+.header__text {
+  width: 875px;
+  margin: 0 auto;
+}
+
+.headline {
+  margin: 0;
+  color: #f3f3f3;
+  font-family: Myriad Pro;
+  text-align: center;
+  text-shadow: 2px 1px black;
+  font-size: 62px;
+  cursor: default;
+}
+
+.headline__text_main {
+  margin-bottom: 60px;
+  margin-top: 0;
+  font-size: 100px;
+}
+
+.advantages {
+  display: flex;
+  height: 641px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('./../assets/images/1610489918_50-p-fon-dlya-lendinga-60.jpg');
+  background-size: cover;
+}
+
+.advantage {
+  width: 26%;
+  text-align: center;
+}
+
+.advantage__header {
+  margin-top: 0px;
+  font-family: Myriad Pro;
+  font-size: 40px;
+  cursor: default;
+}
+
+.advantage__text {
+  font-family: Sylfaen;
+  margin: 0;
+}
+
+.advantage__text_short {
+  font-size: 24px;
+}
+
+.advantage__text_deep {
+  font-size: 36px;
+}
+
+.slonim-calls {
+  height: 826px;
+  background-image: url('./../assets/images/e65a1269528355f8330c741f78e80806.jpg');
+  background-size: cover;
+  padding-top: 150px;
+}
+
+.slonim-calls__headline {
+  margin-bottom: 400px;
+}
+
+.button {
+  display: block;
+  width: 548px;
+  height: 121px;
+  margin: 0 auto;
+  padding-top: 20px;
+  background-color: gold;
+  border-radius: 15px;
+  text-align: center;
+  font-family: Myriad Pro;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 58px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: rgb(204, 173, 0);
+}
+
+.button:focus-within {
+  background-color: rgb(129, 117, 50);
+}
+
+.deep-advantages {
+  height: 2190px;
+  padding-top: 60px;
+  background-image: url('./../assets/images/1610489918_50-p-fon-dlya-lendinga-60.jpg');
+  background-size: cover;
+}
+
+.deep-advantages__headline {
+  margin-bottom: 90px;
+  color: black;
+  text-shadow: none;
+}
+
+.advantage__description {
+  width: 40%
+}
+
+.deep-advantages__advantage {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.advantage__illustration {
+  width: 440px;
+  object-fit: contain;
+}
+
+.reviews {
+  height: 773px;
+  padding-top: 25px;
+  background-image: url('./../assets/images/29226732142_7786ccca42_h.jpg');
+}
+
+.reviews__header {
+  margin-bottom: 170px;
+}
+
+.slider-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.review__video {
+  height: 349px;
+  display: flex;
+  background-repeat: no-repeat;
+}
+
+.review {
+  transition: all 0.2s ease-out;
+}
+
+.review:hover {
+  transform: scale(1.2);
+}
+
+.review__video_first {
+  background-image: url('./../assets/images/Y38zIYcp5FkNunHVkRf0ufPTEFS94n.jpg');
+  background-size: contain;
+}
+
+.review__video_second {
+  background-image: url('./../assets/images/file.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.control-left {
+  background-image: url('./../assets/icons/arrow-left.svg');
+}
+
+.control-right {
+  background-image: url('./../assets/icons/arrow-right.svg');
+}
+
+.control {
+  height: 70px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-self: center;
+  filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+  transition: all 0.2s ease-out;
+}
+
+.control:hover {
+  filter: brightness(0.7) sepia(2) hue-rotate(-70deg) saturate(1.5);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.youtube-icon {
+  display: block;
+  width: 118px;
+  height: 83px;
+  margin: 0 auto;
+  align-self: center;
+  background-image: url('./../assets/icons/kisspng-united-states-youtube-logo-youtube-play-button-transparent-png-5ab1be08946c16.888989591521597960608.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.footer {
+  padding: 10px 15px;
+  background-color: #a2abb3;
+  border-top: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #38495a, #a2abb3, #38495a);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.github {
+  display: block;
+  width: 120px;
+  height: 45px;
+  padding-left: 45px;
+  background-image: url("./../assets/icons/github.svg");
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 45px;
+  color: #cbd5de;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.3s;
+}
+
+.github:hover {
+  color: #fff;
+}
+
+.tg {
+  display: block;
+  width: 86px;
+  height: 32px;
+  background-image: url("./../assets/icons/telegram-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  transition: 0.3s;
+}
+
+.tg:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 1050px) {
+  .advantage {
+    width: 100%;
+  }
+  .deep-advantages {
+    height: 3500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .advantage__illustration {
+    margin-bottom: 20px;
+  }
+  .advantage__description {
+    width: 100%
+  }
+  .deep-advantages__advantage {
+    flex-wrap: wrap;
+  }
+  .advantage__header {
+    font-size: 36px;
+  }
+  .advantage__text_short {
+    font-size: 18px;
+  }
+  .advantage__text_deep {
+    font-size: 24px;
+  }
+  .headline {
+    font-size: 40px;
+  }
+  .headline__text_main {
+    font-size: 50px;
+  }
+  .advantages {
+    height: 1000px;
+  }
+  .review:last-child {
+    display: none;
+  }
+  .button {
+    width: 350px;
+    height: 100px;
+    padding-top: 35px;
+    font-size: 32px;
+  }
+  .button-footer {
+    padding-top: 32px;
+  }
+  .review__video {
+    background-position: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .button {
+    width: 70%;
+  }
+  .button-footer {
+    padding-top: 15px;
+  }
+  .headline {
+    font-size: 36px;
+  }
+  .advantage__illustration {
+    width: 300px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .headline {
+    font-size: 30px;
+  }
+  .headline__text_main {
+    font-size: 60px;
+  }
+  .advantages {
+    height: 1400px;
+  }
+  .advantage {
+    width: 100%;
+  }
+  .button {
+    width: 215px;
+    height: 100px;
+    padding-top: 35px;
+    font-size: 28px;
+  }
+  .button-footer {
+    padding-top: 15px;
+  }
+  .deep-advantages {
+    height: 3000px;
+  }
+  .advantage__description {
+    width: 100%
+  }
+  .advantage__illustration {
+    width: 100%;
+  }
+  .deep-advantages__advantage {
+    flex-direction: column;
+    align-items: center;
+  }
+  .review__video {
+    height: 200px;
+  }
+  .advantage__header {
+    font-size: 30px;
+  }
+  .advantage__text_short {
+    font-size: 18px;
+  }
+  .advantage__text_deep {
+    font-size: 24px;
+  }
+  .review:last-child {
+    display: none;
+  }
+}
